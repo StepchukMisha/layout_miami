@@ -1,0 +1,17 @@
+.icon {
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+
+  @include onDesktop {
+    width: 24px;
+    height: 24px;
+  }
+
+  &__cross {
+    background-image: url(../images/cross-image.svg);
+  }
+}

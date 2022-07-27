@@ -1,0 +1,19 @@
+.page {
+  font-family: "Inter", sans-serif;
+  &__body {
+    margin: 0;
+  }
+
+  &__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: transform 0.5s;
+    transform: translateX(200%);
+
+    &:target {
+      transform: translateX(0);
+    }
+  }
+}
